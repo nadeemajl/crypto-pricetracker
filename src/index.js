@@ -2,6 +2,7 @@ const electron = require('electron')
 const path = require('path')
 const BrowserWindow =  electron.remote.BrowserWindow
 const axios = require('axios')
+const ipc = electron.ipcRenderer
 
 const notifyBtn = document.getElementById('notifyBtn')
 var price = document.querySelector('h1')
@@ -25,3 +26,7 @@ notifyBtn.addEventListener('click',function(event) {
     win.show()
 })
 
+ipc.on('targetPriceVal',function(event,arg){
+    targetPriceVal = Number(arg)
+    targetPrice.innerHTML = '$'+targetPriceVal.toLocaleString('en')
+})
