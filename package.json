@@ -2,7 +2,7 @@
   "name": "crypto-pricetracker",
   "version": "1.0.0",
   "description": "\"# crypto-pricetracker\"",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
