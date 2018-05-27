@@ -1,0 +1,23 @@
+{
+  "name": "crypto-pricetracker",
+  "version": "1.0.0",
+  "description": "\"# crypto-pricetracker\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadeemajl/crypto-pricetracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadeemajl/crypto-pricetracker/issues"
+  },
+  "homepage": "https://github.com/nadeemajl/crypto-pricetracker#readme",
+  "devDependencies": {
+    "electron": "2.0.2"
+  }
+}
