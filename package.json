@@ -19,5 +19,8 @@
   "homepage": "https://github.com/nadeemajl/crypto-pricetracker#readme",
   "devDependencies": {
     "electron": "2.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
   }
 }
